@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Outputs / experiments
+results/
+outputs/
+experiments/results/
+*.png
+*.pdf
+*.svg
+
+# Models / checkpoints (если вдруг добавишь)
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+tmp/
+temp/
+
+# Data (если не хочешь коммитить датасеты)
+data/
+datasets/
+*.csv
+*.npy
+
+# Notebook exports
+*.html
